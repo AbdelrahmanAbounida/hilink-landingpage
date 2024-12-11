@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mont.className} antialiased container max-w-5xl w-full mx-auto`}
+        className={`${mont.className} antialiased container max-w-5xl w-full mx-auto p-5`}
       >
         {children}
       </body>
